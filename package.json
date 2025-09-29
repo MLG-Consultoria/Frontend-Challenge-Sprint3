@@ -1,5 +1,5 @@
 {
-  "name": "frontend-challenge-spt3",
+  "name": "frontend-challenge-sprint3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.3",
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -24,9 +27,6 @@
     "globals": "^16.4.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.44.0",
-    "vite": "npm:rolldown-vite@7.1.12"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.1.12"
+    "vite": "^7.1.7"
   }
 }
