@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import MainHome from "./components/MainHome";
 import Menu from "./routes/Menu"
+import Integrantes from "./routes/Integrantes";
 import Footer from "./components/Footer";
 
 
@@ -16,7 +17,8 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<MainHome />} />
-            <Route path="/main" element={<Menu />} />
+            <Route path="/Menu" element={<Menu />} />
+            <Route path="/Integrantes" element={<Integrantes />} />
 
           </Routes>
         </main>
