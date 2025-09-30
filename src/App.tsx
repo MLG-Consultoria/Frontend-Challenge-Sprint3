@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import MainHome from "./components/MainHome";
 import Menu from "./routes/Menu"
 import Integrantes from "./routes/Integrantes";
+import Faq from "./routes/faq";
 import Footer from "./components/Footer";
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<MainHome />} />
             <Route path="/Menu" element={<Menu />} />
             <Route path="/Integrantes" element={<Integrantes />} />
+            <Route path="/faq" element={<Faq />} />
 
           </Routes>
         </main>
