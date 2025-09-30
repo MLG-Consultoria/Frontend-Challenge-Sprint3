@@ -4,6 +4,9 @@ import MainHome from "./components/MainHome";
 import MainMenu from "./routes/Menu"
 import Integrantes from "./routes/Integrantes";
 import Faq from "./routes/Faq";
+
+import Sobre from "./routes/menu-routes/sobre";
+
 import Footer from "./components/Footer";
 
 
@@ -23,6 +26,8 @@ function App() {
             <Route path="/Main" element={<MainMenu />} />
             <Route path="/Integrantes" element={<Integrantes />} />
             <Route path="/faq" element={<Faq />} />
+
+            <Route path="/sobre" element={<Sobre />} />
 
           </Routes>
         </main>
