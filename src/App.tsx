@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import MainHome from "./components/MainHome";
 import Menu from "./routes/Menu"
 import Integrantes from "./routes/Integrantes";
-import Faq from "./routes/faq";
+import Faq from "./routes/Faq";
 import Footer from "./components/Footer";
 
 

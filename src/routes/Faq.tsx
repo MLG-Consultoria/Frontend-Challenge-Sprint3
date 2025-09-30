@@ -110,5 +110,4 @@ const Faq: React.FC = () => {
     </main>
   );
 };
-
 export default Faq;
