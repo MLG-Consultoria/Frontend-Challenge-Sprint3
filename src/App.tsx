@@ -5,10 +5,10 @@ import MainMenu from "./routes/Menu"
 import Integrantes from "./routes/Integrantes";
 import Faq from "./routes/Faq";
 import Contato from "./routes/Contato";
-import Sobre from "./routes/menu-routes/sobre";
+import Sobre from "./routes/menu-routes/Sobre";
 import VerConsultas from "./routes/menu-routes/VerConsultas";
 import Localizacao from "./routes/menu-routes/Localizacao";
-import UnidadeDetalhe from "./routes/menu-routes/unidadeDetalhes";
+import UnidadeDetalhe from "./routes/menu-routes/UnidadeDetalhes";
 import SuporteSite from "./routes/menu-routes/SuporteSite";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
