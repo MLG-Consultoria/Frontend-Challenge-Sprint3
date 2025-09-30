@@ -1,5 +1,10 @@
 import Header from "./components/Header";
+import MainHome from "./components/MainHome";
+import Menu from "./routes/Menu"
 import Footer from "./components/Footer";
+
+
+import { Routes, Route } from "react-router-dom";
 
 
 
@@ -9,7 +14,11 @@ function App() {
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-blue-50 to-white">
         <Header />
         <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<MainHome />} />
+            <Route path="/main" element={<Menu />} />
 
+          </Routes>
         </main>
         <Footer />
       </div>
