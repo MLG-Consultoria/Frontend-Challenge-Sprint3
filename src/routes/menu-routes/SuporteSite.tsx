@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import Notificacao from "../components/Notificacao";
+import Notificacao from "../../components/Notificacao";
 
 const SuporteSite: React.FC = () => {
   const [nome, setNome] = useState("");
