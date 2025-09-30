@@ -1,7 +1,7 @@
 import ScrollTopPage from "./components/ScrollTopPage"; 
 import Header from "./components/Header";
 import MainHome from "./components/MainHome";
-import Menu from "./routes/Menu"
+import MainMenu from "./routes/Menu"
 import Integrantes from "./routes/Integrantes";
 import Faq from "./routes/Faq";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<MainHome />} />
-            <Route path="/Menu" element={<Menu />} />
+            <Route path="/Main" element={<MainMenu />} />
             <Route path="/Integrantes" element={<Integrantes />} />
             <Route path="/faq" element={<Faq />} />
 
